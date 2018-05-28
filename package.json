@@ -1,0 +1,22 @@
+{
+  "name": "node-base",
+  "version": "1.0.0",
+  "description": "bot base for skynet slack ws",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x736b796e6574/node-base.git"
+  },
+  "author": "khanhtc, thanhph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x736b796e6574/node-base/issues"
+  },
+  "homepage": "https://github.com/0x736b796e6574/node-base#readme",
+  "dependencies": {
+    "seed-slackbot": "^3.2.4"
+  }
+}
