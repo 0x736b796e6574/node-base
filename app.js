@@ -1,9 +1,7 @@
-var Slack = require('seed-slackbot');
-var slack = new Slack({ token: token, processReplies: true });
+var config = require('./config');
 
-var token =  'token';
-var channel_id = "channel_id"
+var slack = require('./config/slack')(config);
 
 slack.on('message', function(data) {
-  slack.send(channel_id,data.text);
+  slack.send(config.channel_id,data.text);
 });
