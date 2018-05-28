@@ -1,5 +1,4 @@
 module.exports = function(config) {
-    var Slack = require('seed-slackbot');
-    
-    return Slack({ token: config.token, processReplies: true });
+    var RtmClient = require('@slack/client').RtmClient;
+    return new RtmClient(config.token);
 };

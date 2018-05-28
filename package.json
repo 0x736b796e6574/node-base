@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/0x736b796e6574/node-base#readme",
   "dependencies": {
-    "seed-slackbot": "^3.2.4"
+    "@slack/client": "^3.5.4"
   }
 }
